@@ -2,6 +2,7 @@
 
 
 This is a covod-19 tracker app built in Flutter and Open Sourced for Educational purpose
+
 The API fetches refreshes data after every hour!
 
 link to download the apk:
