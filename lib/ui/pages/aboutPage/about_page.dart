@@ -26,17 +26,17 @@ class _AboutUsState extends State<AboutUs> {
         child: Container(
             child: ListView(
               children: [
-                developerInfo(
-                  "Application Developer", 
-                  "Payal Pawar",
-                  "https://www.linkedin.com/in/payal-pawar-a7b960182", 
-                  "payal.jpg", 700),
-                  developerInfo(
-                    "Application Developer",
-                    "Mayuresh Surve",
-                    "https://www.linkedin.com/in/mayuresh-surve/",
-                    "mayuresh.jpg",
-                    1200),
+                // developerInfo(
+                //   "Application Developer", 
+                //   "Payal Pawar",
+                //   "https://www.linkedin.com/in/payal-pawar-a7b960182", 
+                //   "payal.jpg", 700),
+                //   developerInfo(
+                //     "Application Developer",
+                //     "Mayuresh Surve",
+                //     "https://www.linkedin.com/in/mayuresh-surve/",
+                //     "mayuresh.jpg",
+                //     1200),
                 developerInfo(
                     "Application Developer",
                     "Raju Potharaju",
@@ -220,7 +220,8 @@ class _AboutUsState extends State<AboutUs> {
               onTap: () {
                 Toast.show("Redirect to github repo", context,
                     gravity: Toast.CENTER);
-                // _launchURL("https://github.com/rajupotharaju155"); //if you ve reached till here, fork me on github :)
+                _launchURL("https://github.com/rajupotharaju155/covid-19-tracker/"); 
+                //if you ve reached till here, fork me on github :)
               }),
           Container(
             padding: EdgeInsets.all(8),
